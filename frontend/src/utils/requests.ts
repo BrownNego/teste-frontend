@@ -1,0 +1,1 @@
+export const BASE_URL = 'http://lb-aws-1105894158.sa-east-1.elb.amazonaws.com';
