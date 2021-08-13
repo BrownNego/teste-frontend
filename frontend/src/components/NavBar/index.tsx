@@ -1,4 +1,3 @@
-import ImgDsDark from 'assets/img/ds_dark.svg';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
@@ -7,7 +6,7 @@ const NavBar = () => {
             <div className="container">
                 <nav className="my-2 my-md-0 mr-md-3">
                     <Link to="/">
-                        {/* <img src={Img} alt="TesteQuali" width="120" /> */}
+
                     </Link>
 
                 </nav>

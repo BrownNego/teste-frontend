@@ -1,5 +1,4 @@
 import axios from "axios";
-import { useState } from "react";
 import { Component } from "react";
 import { BASE_URL } from "utils/requests";
 
