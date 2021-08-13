@@ -1,4 +1,5 @@
-import Dashboard from 'pages/Dashboard';
+import Cadastro from 'pages/Dashboard/cadastro';
+import Lista from 'pages/Dashboard/lista';
 import Home from 'pages/Home';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -9,8 +10,11 @@ const Routes = () => {
                 <Route path="/" exact>
                     <Home />
                 </Route>
-                <Route path="/dashboard">
-                    <Dashboard />
+                <Route path="/cadastro">
+                    <Cadastro />
+                </Route>
+                <Route path="/lista">
+                    <Lista />
                 </Route>
             </Switch>
         </BrowserRouter>
